@@ -1,0 +1,15 @@
+/* Локальна сім’я шрифтів: Regular = 400, Medium = 500. */
+@font-face {
+    font-family: "Basis Grotesque Pro";
+    src: url("fonts/BasisGrotesquePro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Basis Grotesque Pro";
+    src: url("fonts/BasisGrotesquePro-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
