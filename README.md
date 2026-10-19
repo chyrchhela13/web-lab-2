@@ -4,7 +4,24 @@
 
 ## HTML + CSS
 
-У корені репозиторію: `index.html`, `styles.css`, `fonts.css`, `language.js` та локальні шрифти в `fonts/`.
+У корені репозиторію залишені сторінка й основна таблиця стилів. Допоміжні файли зібрані в `assets/`.
+
+```text
+assets/
+├── fonts/
+│   ├── BasisGrotesquePro-Regular.ttf
+│   └── BasisGrotesquePro-Medium.ttf
+├── favicon.svg
+├── fonts.css
+└── language.js
+lab_2_react/
+index.html
+styles.css
+README.md
+.gitignore
+```
+
+`assets/fonts.css` підключає локальні шрифти, `assets/language.js` відповідає за UK/EN та активний пункт меню.
 
 Запуск із кореня репозиторію:
 
