@@ -638,3 +638,11 @@ h1 {
 @media (prefers-reduced-motion: reduce) {
     .theme-toggle, .language-switch button { transition: none; }
 }
+
+h1 {
+    color: #93c5fd;
+}
+
+:root[data-theme="light"] h1 {
+    color: #1d4ed8;
+}
